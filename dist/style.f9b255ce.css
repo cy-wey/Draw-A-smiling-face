@@ -1,0 +1,26 @@
+.face {
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    margin-left: -10rem;
+}
+
+@media (max-width: 500px) {
+
+
+    .wrapper {
+        height: 50vh;
+    }
+
+    .face {
+        position: relative;
+        top: 1rem;
+        left: 50%;
+        margin-left: -10rem;
+    }
+
+    #html {
+        height: 50vh;
+        overflow: auto;
+    }
+}
